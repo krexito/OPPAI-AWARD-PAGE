@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OPPAILAND AWARDS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-overlay"></div>
+      <nav class="top-nav">
+        <h1>OPPAILAND AWARDS</h1>
+        <button id="themeToggle" class="ghost-button" aria-label="Cambiar tema">⚡ Modo neón</button>
+      </nav>
+      <div class="hero-layout">
+        <div class="hero-content">
+          <p class="eyebrow">Tecnología • Juegos • Anime • Orgullo Nica 🇳🇮</p>
+          <h2>La premiación gamer futurista más grande de Nicaragua</h2>
+          <p>
+            Inspirado en el formato de grandes premios digitales, OPPAILAND AWARDS celebra a creadores,
+            comunidades y proyectos que hacen vibrar la escena tech, gaming y anime pinolera.
+          </p>
+          <a href="#nominados" class="cta-button">Votar ahora</a>
+        </div>
+
+        <div class="hero-animation" aria-hidden="true">
+          <div class="arena">
+            <div class="paddle left"></div>
+            <div class="paddle right"></div>
+            <div class="ball"></div>
+            <div class="score">NICA LEAGUE // FINAL ROUND</div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="sobre">
+        <h3>¿Qué son los OPPAILAND AWARDS?</h3>
+        <p>
+          Un evento anual donde la comunidad decide a los ganadores de categorías de contenido,
+          tecnología, gaming y cultura anime, con ambientación cyber inspirada en Managua, Granada,
+          León y la energía de nuestras ferias populares.
+        </p>
+      </section>
+
+      <section class="section" id="nominados">
+        <div class="section-title-wrap">
+          <h3>Nominados 2026</h3>
+          <button id="resetVotes" class="ghost-button">Reiniciar votos</button>
+        </div>
+        <div id="awardsGrid" class="awards-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="section schedule">
+        <h3>Agenda del Evento</h3>
+        <ul>
+          <li><strong>18:00</strong> Alfombra azul y blanca en Plaza Geek Managua.</li>
+          <li><strong>19:00</strong> Apertura con show audiovisual “Lago Xolotlán Cyber”.</li>
+          <li><strong>20:00</strong> Premiaciones principales.</li>
+          <li><strong>21:30</strong> Closing party con música synthwave + visuales anime.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>OPPAILAND AWARDS · Hecho con sabor pinolero 💙</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
